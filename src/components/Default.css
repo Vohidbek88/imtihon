@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 311px;;
+    height: 100vh;
+    background: #325ECD;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+li{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 20px;
+    transition: .3s ease;
+    cursor: pointer;
+    color: white;
+}
+li:hover{
+    width: 100%;
+    background-color: white;
+    color: #325ECD;
+}
+li:hover img{
+    background-color: rgba(128, 128, 128, 0.377);
+}
+span{
+    margin-left: 20px;
+}
